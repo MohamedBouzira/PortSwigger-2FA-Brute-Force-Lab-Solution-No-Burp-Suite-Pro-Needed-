@@ -1,7 +1,8 @@
+#this is the slow version of the tool , it help you understand what it happening ,it still work so... 
 import requests
 import re
 
-url = 'https://0af800f703b3b41a803653b600cc0070.web-security-academy.net'
+url = 'https://0af800f703b3b41a803653b600cc0070.web-security-academy.net'  #change URL here
 
 def run_macro(url, number):
     print(f'[*] running macro number {number}')
@@ -93,7 +94,7 @@ def main():
     
     # Read the code list
     try:
-        with open('list.txt', 'r') as f:
+        with open('list.txt', 'r') as f:   #list.txt 
             code_list = f.readlines()
     except FileNotFoundError:
         print("[-] list.txt file not found")
