@@ -13,7 +13,7 @@ found_code = None
 valid_session = None
 stop_flag = threading.Event()
 
-def run_macro(url, number=0, verbose=True):   #You can disable macros here!!!!
+def run_macro(url, number=0, verbose=True):   #You can disable verbose here!!!!
     if verbose:
         print(f'[*] running macro number {number}')
     
